@@ -1,0 +1,160 @@
+﻿已經開始建置於 2018/4/29 下午 10:24:48。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\asm.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\SelfMotivatedSystem.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\inc /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 00_StudentWork\00_SimpleInteractiveSystem\mySystemApp.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp 00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimpleFileEditor.cpp main.cpp openGLapp\openGLapp.cpp openGLapp\openGLapp.events.cpp openGLapp\openGLapp_draw.cpp openGLapp\openGLapp_init.cpp openGLapp\openGLapp_update.cpp
+         mySystemApp.cpp
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         mySystemApp_HandleEvents.cpp
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(121): warning C4305: '引數' : 從 'double' 轉換為 'float'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(121): warning C4305: '引數' : 從 'double' 轉換為 'float'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(150): warning C4305: '引數' : 從 'double' 轉換為 'float'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(150): warning C4305: '引數' : 從 'double' 轉換為 'float'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(160): warning C4305: '引數' : 從 'double' 轉換為 'float'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_HandleEvents.cpp(160): warning C4305: '引數' : 從 'double' 轉換為 'float'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+         mySystemApp_draw.cpp
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(121): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(121): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(137): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(137): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(154): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(154): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(155): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(164): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(164): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(183): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(183): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(186): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(186): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(188): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(188): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(205): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(205): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(225): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(225): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(225): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(235): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(235): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(235): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(237): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(237): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(237): warning C4244: '引數' : 將 'double' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(250): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(269): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(269): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(272): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(272): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(275): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(275): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(278): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(278): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(284): warning C4244: '正在初始化' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(261): warning C4101: 'b' : 未參考的區域變數
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(261): warning C4101: 'g' : 未參考的區域變數
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(261): warning C4101: 'r' : 未參考的區域變數
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(314): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(317): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(319): warning C4244: '=' : 將 'int' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(320): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(323): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(342): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(345): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(346): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(347): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(347): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(348): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(348): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(357): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(357): warning C4305: '引數' : 從 'double' 轉換為 'GLfloat'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(359): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(360): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(361): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(361): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(362): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(362): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(380): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(394): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystemApp_draw.cpp(394): warning C4244: '引數' : 將 'int' 轉換為 'GLfloat'，由於型別不同，可能導致資料遺失
+         mySystem_SimpleFileEditor.cpp
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>00_StudentWork\00_SimpleInteractiveSystem\mySystem_SimpleFileEditor.cpp(68): warning C4018: '<' : signed/unsigned 不相符
+         main.cpp
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         openGLapp.cpp
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         openGLapp.events.cpp
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         openGLapp_draw.cpp
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         openGLapp_init.cpp
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         openGLapp_update.cpp
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\inc\GL/gl.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\bin\Release\SelfMotivatedSystem.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib /LIBPATH:.\lib\IL freeglut.lib opengl32.lib glew32.lib glew32s.lib ILUT.lib devIL.lib ILU.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\SelfMotivatedSystem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\bin\Release\SelfMotivatedSystem.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\bin\Release\SelfMotivatedSystem.lib" /MACHINE:X86 Release\myBasicTools.obj
+         Release\mySystem_ColorPalette.obj
+         Release\mySystem_GalaxySystem.obj
+         Release\mySystem_MonteCarlo.obj
+         Release\mySystem_SimpleFileEditor.obj
+         Release\mySystem_SimplePainter.obj
+         Release\mySystem_SortingVisualization.obj
+         Release\basic_app.obj
+         Release\main.obj
+         Release\mySystemApp.obj
+         Release\mySystemApp_draw.obj
+         Release\mySystemApp_HandleEvents.obj
+         Release\camera.obj
+         Release\opengl_stuff.obj
+         Release\painter_draw.obj
+         Release\openGLapp.obj
+         Release\openGLapp.events.obj
+         Release\openGLapp_draw.obj
+         Release\openGLapp_init.obj
+         Release\openGLapp_update.obj
+         Release\basic_tools.obj
+         Release\grid2D.obj
+         Release\provider.obj
+         Release\vector3d.obj
+         Release\fileReader.obj
+         Release\imageReader.obj
+         Release\BG_grid2D.obj
+         Release\boardGame.obj
+         Release\painter.obj
+         Release\boardGameApp.obj
+         Release\freeCanvas2D.obj
+         Release\lattice_manager.obj
+         Release\paintingSystem.obj
+         Release\paintingSystemApp.obj
+         Release\paintingSystemApp_draw.obj
+         Release\paintingSystemApp_HandleEvents.obj
+         Release\texture.obj
+         Release\textureManager.obj
+         Release\textureManager_read.obj
+         正在產生程式碼
+     1>c:\users\mimi\desktop\oop_hw02_template_net2010_201802\00_studentwork\00_simpleinteractivesystem\mysystem_montecarlo.cpp(297): warning C4715: 'MONTE_CARLO_SYSTEM::isInsideArea' : 不是所有控制路徑都傳回值
+         已完成程式碼產生
+         asm.vcxproj -> C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\.\bin\Release\SelfMotivatedSystem.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\bin\Release\SelfMotivatedSystem.exe;#1" /manifest Release\SelfMotivatedSystem.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\SelfMotivatedSystem.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\SelfMotivatedSystem.lastbuildstate"。
+     1>專案 "C:\Users\Mimi\Desktop\OOP_HW02_Template_NET2010_201802\asm.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:26.68
